@@ -1,0 +1,63 @@
+body{
+    background-color: #FFAEDC;
+}
+#general 
+{
+	width: 1000px;
+	margin:auto;
+}
+.menu a {
+    display: block;
+    padding: 30px;
+    font-family: Verdana;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 15px 0 60px;
+    box-shadow: 10px 10px 5px 0px #000000;
+}
+.menu a:hover {
+    color: black;
+    background: #B5B5B5;
+}
+.item1 a {
+    background:#4C5BFF;
+}
+.item1 {
+    float: left;
+}
+.item2 a {
+    background:#0BC71A;
+}
+.item2 {
+    float: left;
+}
+.item3  a {
+    background:#FA1A34;
+}
+.item3 {
+    float: left;
+}
+.item4  a {
+    background:#FAB70D;
+}
+.item4 {
+    float: left;
+}
+.food {
+	list-style: none;
+    display: none;
+    padding: 0;
+    line-height: 2vw;
+}
+.item1:hover .food {
+    display: block;
+}
+.item2:hover .food {
+    display: block;
+}
+.item3:hover .food {
+    display: block;
+}
+.item4:hover .food {
+    display: block;
+}
