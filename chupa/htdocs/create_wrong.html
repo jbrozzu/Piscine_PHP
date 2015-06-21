@@ -12,10 +12,10 @@
 
 	<header class="box">
 		<img id="logo" src="/img/logo.png"></img>
-		<h1 class="fontgrad">Chupa Chups !</h1>
+		<img id="chupa-title" src="/img/chupa.png">
 
 
-			<div class="buttons">
+			<div class="buttons2">
 				<a href="index.php" class="button"/>Accueil</a>
 				<a href="#" class="button"/>Boutique</a>
 				<a href="#" class="button"/>Panier</a>
@@ -26,13 +26,18 @@
 			<div class="container"/>
 				
 				<form method="POST" action="create.php"> 
-					Identifiant: <input type="text" name="login" placeholder="Login" value="" />
 					<br />
-					Mot de passe: <input type="password" name="passwd" placeholder="Mot de passe" value="" />
+					<br />
+					Identifiant: <input class="css-input" type="text" name="login" placeholder="Login" value="" />
+					<br />
+					<br />
+					Mot de passe: <input class="css-input" type="password" name="passwd" placeholder="Mot de passe" value="" />
 					<input type="submit" name="submit" value="OK"/>
 				</form>
 				
-				<p>Dommage, ce login est d&eacutej&agrave pris... tu peux essayer "Ducon",  j'ai l'impression qu'il est disponible ;-)</p>
+				<p style="font-family: Comic Sans MS; font-size:14pt; font-weight: bold;">
+					Oh mais quel dommage, ce login est d&eacutej&agrave pris... Retente ta chance !
+				</p>
 
 			</div>
 	<footer>
