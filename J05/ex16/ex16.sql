@@ -1,0 +1,1 @@
+SELECT count(historique_membre.date) AS 'films' FROM historique_membre WHERE (DATE(historique_membre.date) BETWEEN '2006-10-30' AND '2007-07-27') OR (DAY(historique_membre.date) = '24' AND month(historique_membre.date) = '12');
