@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+
+
+</head>
+<body>
+	
+	<div>
+
+		<form> 
+			<input id="barre1" type="text" name="form1"; style="width:380px;">
+			<select id="select" type="text" name="form2"; style="width:100px;">
+				<option value = "+">+</option>
+				<option value = "-">-</option>
+				<option value = "/">/</option>
+				<option value = "%">%</option>
+				<option value = "*">*</option>
+			</select>
+			<input id="barre2" type="text" name="form3"; style="width:380px;">
+
+			<p><input type="button" value="Try me!" onclick="calcul()" style="border-radius:3px; font-size:12px;"> </p>
+		</form>
+	</div>
+
+	<script>
+
+		function calcul()
+		{
+			var value_1;
+			var value_2;
+			var opp;
+			var res;
+			value_1 = document.getElementById('barre1').value;
+			value_2 = document.getElementById('barre2').value;
+			opp = document.getElementById('select').value;
+
+			if (isNaN(value_1) || isNaN(value_2) || value_1 == "" || value_1 < 0 || value_2 == "" || value_2 < 0)
+				window.alert("Error :(");
+			else if ((opp == "%" || opp == "/") && value_2 == 0)
+			{
+				window.alert("It's over 9000!");
+				console.log("It's over 9000!");
+			}
+			else
+			{
+				if (opp == "+")
+				{
+					res = parseInt(value_1) + parseInt(value_2);
+					alert(res);
+					console.log(res);
+				}
+				else if (opp == "-")
+				{
+					res = parseInt(value_1) - parseInt(value_2);
+					alert(res);
+					console.log(res);
+				}
+				else if (opp == "*")
+				{
+					res = parseInt(value_1) * parseInt(value_2);
+					alert(res);
+					console.log(res);
+				}
+				else if (opp == "/")
+				{
+					res = parseInt(value_1) / parseInt(value_2);
+					alert(res);
+					console.log(res);
+				}
+				else if (opp == "%")
+				{
+					res = parseInt(value_1) % parseInt(value_2);
+					alert(res);
+					console.log(res);
+				}
+			}
+		}
+
+		setInterval(function()
+			{
+				window.alert("Please, use me...")
+			}, 30000);
+
+	</script>
+
+	
+</body>
+
+</html>
