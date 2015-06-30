@@ -1,0 +1,20 @@
+<- Ship ----------------------------------------------------------------------
+A Ship is defined by 10 different elements:
+- Name
+- PositionX (on the board)
+- PositionY (on the board)
+- Sprite (the decal used on the board)
+- Hull (The ship Hit Point)
+- Power (the ship action point by turn)
+- Speed (range of the ship)
+- Flex (Maneuvrability of the ship)
+- Shield (damage the ship can take before losing Hit Point)
+- Weapon (cf Weapon.doc.txt)
+All of them have to be set to create a new instance.
+
+To build it :
+	$ship1 = new ship( array('name' => "name", 'posX' => INT,
+	'posY' => INT, 'sprite' => "URL", 'hull' => INT, 'power' => INT,
+	'speed' => INT, 'flex' => INT, 'shield' => INT));
+
+----------------------------------------------------------------------- Ship ->
