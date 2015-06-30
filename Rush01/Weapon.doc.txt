@@ -1,0 +1,22 @@
+<- Weapon ----------------------------------------------------------------------
+A Weapon is defined by 5 different elements:
+- Name
+- Load (depend on the Dice)
+- Srange (short range)
+- Mrange (medium range)
+- Lrange (long range)
+- Area (width the weapon use while shooting)
+All of them have to be set to create a new instance.
+
+To build it :
+$weapon = new Gun(array('Name' => 'EXEMPLE', 'Load' => INT, 'Srange' => INT, 
+'Mrange' => INT, 'Lrange' => INT, 'Area' => INT));
+
+The functions 'getName', 'getLoad', 'getSrange', 'getMrange', 'getLrange' 
+and 'getArea' return respectively the values of '$_Name', '$_Load', 
+'$_Srange', '$_Mrange', '$_Lrange' and '$_Area'.
+
+The variables '$_Name', '$_Load', '$_Srange', '$_Mrange', '$_Lrange' 
+and '$_Area' are privated, you must use 'setName', 'setLoad', 'setSrange', 
+'setMrange', 'setLrange' and 'setArea' functions to change their values.
+----------------------------------------------------------------------- Weapon ->

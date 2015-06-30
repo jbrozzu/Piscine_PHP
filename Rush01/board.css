@@ -1,0 +1,102 @@
+
+.case
+{
+	border: 1px solid #73A0FF; 
+	width: 8px; 
+	height: 8px; 
+	float: left;
+	position: relative; 
+	padding: 1px;
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 10px;
+	color: #73A0FF;
+}
+
+#line
+{
+	/*border: 1px solid red;*/
+	width:1800px;
+	height:11px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#vaisseau 
+{
+	position:relative;
+	z-index: 30; 
+	float:left;
+	border: 1px solid black;
+	width: 100px
+}
+
+#roc
+{
+	position:relative;
+	z-index: 30; 
+	float:left;
+	width: 100px;
+}
+
+#roc2
+{
+	position:relative;
+	z-index: 30; 
+	float:left;
+	width: 300px;
+}
+
+#roc2
+{
+	position:relative;
+	z-index: 30; 
+	float:left;
+	width: 300px;
+}
+
+#roc3
+{
+	position:relative;
+	z-index: 30; 
+	float:left;
+	width: 50px;
+}
+
+#station
+{
+	position:relative;
+	z-index: 30; 
+	float:left;
+	width: 200px;
+}
+
+body
+{
+	background: url(./space.jpg);
+}
+
+#titlede
+{
+	color: #73A0FF; 
+	margin-left: 60px;
+}
+
+#divde
+{
+	position: absolute;
+	margin-left: 40px; 
+}
+
+#info
+{
+	position: absolute;
+	background-color: red;
+	width: 300px;
+	margin-top: 200px;
+  	margin-left: 25px;
+	height: 500px;
+}

@@ -1,0 +1,12 @@
+<- Dice ----------------------------------------------------------------------
+This class allowed you to choose a number of six faces dices and return
+the addition of the different random values found.
+
+The fonction roll() use the argument $_NbDice to find out how many times 
+the fonction rand(1, 6) has to be call.
+
+The functions 'getNbDice'return  the values of '$_NbDice'.
+
+The variables '$_NbDice'is privated, you must use 'setNbDice()' functions 
+to change its value.
+---------------------------------------------------------------------- Dice ->
